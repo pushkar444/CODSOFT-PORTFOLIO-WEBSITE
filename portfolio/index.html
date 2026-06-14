@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pushkar Kumar — Computer Science Student</title>
+  <meta name="description" content="Portfolio of Pushkar Kumar, a B.Tech Computer Science student at IILM University focused on Python, SQL and cloud computing." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Top bar -->
+  <header class="site-head">
+    <div class="wrap head-inner">
+      <a href="#top" class="brand">
+        Pushkar Kumar<span class="brand-dot">.</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#work">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero wrap">
+      <div class="hero-text">
+        <p class="eyebrow">Noida, India &middot; Open to internships</p>
+        <h1 class="hero-title">
+          I'm Pushkar — a Computer Science student
+          learning to <em>build things</em> with code.
+        </h1>
+        <p class="hero-sub">
+          Second-year B.Tech student at IILM University. I spend most of my time
+          with Python and SQL, building small console tools and reading up on
+          cloud computing and AI.
+        </p>
+        <div class="hero-actions">
+          <a href="#work" class="btn">See what I've built</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <img src="images/photo.jpg" alt="Pushkar Kumar"
+             onerror="this.onerror=null;this.src='images/placeholder.svg';" />
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section wrap">
+      <div class="section-head">
+        <span class="kicker">01 — About</span>
+        <h2>A bit about me</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-photo">
+          <!-- Replace photo.jpg with your own picture (roughly square works best) -->
+          <img src="images/photo.jpg" alt="Photo of Pushkar Kumar"
+               onerror="this.onerror=null;this.src='images/placeholder.svg';" />
+        </div>
+
+        <div class="about-text">
+          <p>
+            I'm a motivated B.Tech Computer Science student with a genuine
+            interest in problem solving. Right now I'm focused on getting my
+            fundamentals right — clean logic, data structures, and the basics
+            of object-oriented programming.
+          </p>
+          <p>
+            Outside of coursework I build console-based applications and small
+            data-management scripts in Python, and I'm working through NPTEL
+            material on cloud computing to understand how SaaS, PaaS and IaaS
+            fit together. I keep an eye on generative AI and large language
+            models because that's where a lot of the interesting work is.
+          </p>
+          <p>
+            Away from the screen I play volleyball and train regularly — both
+            keep me disciplined and remind me that consistency beats bursts of
+            effort.
+          </p>
+
+          <dl class="facts">
+            <div><dt>University</dt><dd>IILM University, Greater Noida</dd></div>
+            <div><dt>Degree</dt><dd>B.Tech, Computer Science (2024–present)</dd></div>
+            <div><dt>CGPA</dt><dd>8.55 / 8.5 (Sem 1 / Sem 2)</dd></div>
+            <div><dt>Based in</dt><dd>Noida, India — willing to relocate</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section wrap">
+      <div class="section-head">
+        <span class="kicker">02 — Skills</span>
+        <h2>What I work with</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <ul>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Core CS</h3>
+          <ul>
+            <li>Data Structures</li>
+            <li>Object-Oriented Programming</li>
+            <li>Problem Solving</li>
+            <li>Cloud Computing (SaaS / PaaS / IaaS)</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Tools</h3>
+          <ul>
+            <li>Git &amp; GitHub</li>
+            <li>VS Code</li>
+            <li>Jupyter Notebook</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Currently learning</h3>
+          <ul>
+            <li>Generative AI &amp; LLMs</li>
+            <li>Cloud architectures</li>
+            <li>Better engineering habits</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="work" class="section wrap">
+      <div class="section-head">
+        <span class="kicker">03 — Projects</span>
+        <h2>Things I've built &amp; studied</h2>
+      </div>
+
+      <div class="work-list">
+        <article class="work-item">
+          <div class="work-no">P1</div>
+          <div class="work-body">
+            <h3>Python console applications</h3>
+            <p>
+              A set of small command-line programs — calculators, text-based
+              menus and simple games — written to practice control flow,
+              functions and clean program structure.
+            </p>
+            <ul class="tags">
+              <li>Python</li><li>OOP basics</li><li>CLI</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="work-item">
+          <div class="work-no">P2</div>
+          <div class="work-body">
+            <h3>Data-management scripts</h3>
+            <p>
+              Scripts that read, organise and summarise data from files, with a
+              SQL layer for storing and querying records. Built to get
+              comfortable moving data between Python and a database.
+            </p>
+            <ul class="tags">
+              <li>Python</li><li>SQL</li><li>File I/O</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="work-item">
+          <div class="work-no">P3</div>
+          <div class="work-body">
+            <h3>Cloud computing case study</h3>
+            <p>
+              Notes and a written breakdown of SaaS, PaaS and IaaS models from
+              my NPTEL coursework — comparing real services and where each
+              layer makes sense.
+            </p>
+            <ul class="tags">
+              <li>Cloud</li><li>Research</li><li>NPTEL</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="work-item">
+          <div class="work-no">P4</div>
+          <div class="work-body">
+            <h3>This portfolio</h3>
+            <p>
+              Hand-coded in plain HTML, CSS and a little JavaScript — no
+              frameworks. Built as the Level 1 task for my CodSoft web
+              development internship.
+            </p>
+            <ul class="tags">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" class="section wrap">
+      <div class="resume-band">
+        <div>
+          <span class="kicker">04 — Resume</span>
+          <h2>Want the full story?</h2>
+          <p>Download my resume for the complete rundown of my coursework, experience and interests.</p>
+        </div>
+        <a href="assets/Pushkar-Kumar-Resume.pdf" class="btn" download>
+          Download resume (PDF)
+        </a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section wrap">
+      <div class="section-head">
+        <span class="kicker">05 — Contact</span>
+        <h2>Let's talk</h2>
+      </div>
+
+      <div class="contact-grid">
+        <p class="contact-lead">
+          I'm looking for an internship where I can keep learning and actually
+          ship work. If that sounds like a fit, the fastest way to reach me is
+          email.
+        </p>
+
+        <ul class="contact-list">
+          <li>
+            <span class="contact-label">Email</span>
+            <a href="mailto:pushkar.kumar.cs28@iilm.edu">pushkar.kumar.cs28@iilm.edu</a>
+          </li>
+          <li>
+            <span class="contact-label">Phone</span>
+            <a href="tel:+919341808241">+91 93418 08241</a>
+          </li>
+          <li>
+            <span class="contact-label">Location</span>
+            <span>Noida, India — 201310</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-foot">
+    <div class="wrap foot-inner">
+      <p>&copy; <span id="year">2026</span> Pushkar Kumar</p>
+      <a href="#top" class="to-top">Back to top &uarr;</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
